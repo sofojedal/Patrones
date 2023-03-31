@@ -21,7 +21,7 @@ public class View {
 
                 // Dibujar la imagen pequeña en posiciones aleatorias
                 Random random = new Random();
-                for (int i = 0; i < 800; i++) {
+                for (int i = 0; i < 800000; i++) {
                     int x = random.nextInt(getWidth() - smallImage.getIconWidth());
                     int y = random.nextInt(getHeight() - smallImage.getIconHeight());
                     g.drawImage(smallImage.getImage(), x, y, null);
